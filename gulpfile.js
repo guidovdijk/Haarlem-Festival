@@ -46,7 +46,7 @@ gulp.task('js', function(){
         .pipe(webpack({
             mode: 'development',
             watch: true,
-            output: { 
+            output: {
                 filename: 'index.js'
             },
             module: {
@@ -62,7 +62,7 @@ gulp.task('js', function(){
                 }]
             }
         }))
-        .pipe(gulp.dest(filePath.dist.js));   
+        .pipe(gulp.dest(filePath.dist.js));
 });
 
 // Compile Sass

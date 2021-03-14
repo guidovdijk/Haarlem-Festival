@@ -1,4 +1,4 @@
-<?php
+-<?php
     class head {
         private string $title;
         private string $class;
@@ -30,6 +30,3 @@
         }
     }
 ?>
-
-
-

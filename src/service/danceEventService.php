@@ -1,7 +1,7 @@
 <?php
     include '../classes/autoloader.php';
 
-    abstract class eventService {
+    abstract class danceEventService {
         protected database $db;
         protected mysqli $conn;
 
